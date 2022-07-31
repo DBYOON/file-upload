@@ -1,0 +1,14 @@
+button { background: none; border: 0 none; cursor: pointer;
+  
+}
+
+.upload_area b,
+.upload_area span{ font-size: 15px; }
+.upload_file_wrap { position: relative; margin: 10px 0 10px; width: 100%; font-size: 0; }
+.upload_file_wrap .upload_file_add { position: relative; margin-top: 10px; }
+.upload_file_wrap .upload_file_add .upload_file { position: relative; padding: 7px 0px 7px 10px; border: 0; width: 100%; min-height: 28px; border-radius: 3px; line-height: 28px; font-size: 15px; color: #aaa; cursor: default; pointer-events: none; }
+.upload_file_wrap .upload_file_add .size { position: absolute; top: 13px; right: 40px; font-size: 12px; }  
+.upload_file_wrap .upload_file_add .close_btn { display: block; position: absolute; top: 0; bottom: 0; right: 10px; z-index: 10; font-size: 12px; }
+.upload_file_wrap .btn_file { display:inline-block; box-sizing: border-box; width: 100px; border: 1px solid #666; border-radius: 2px; padding: 14px 0; font-size: 13px; color: #333; text-align: center; cursor: pointer; }
+input[type="file"] { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0);border:0; }
+input::placeholder { color: #aaa; }
